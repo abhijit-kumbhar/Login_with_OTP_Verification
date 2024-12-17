@@ -1,0 +1,64 @@
+/* StudentList.css */
+.student-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #dee0dd00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.search-bar{
+    display: flex;
+    
+}
+
+.create-btn{
+    background-color: rgb(80, 116, 27);
+    color: white;
+    padding: 10px;
+    width: 80px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.edit-btn{
+    cursor: pointer;
+}
+
+.input-data{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 60%;
+    margin-top: 30px;
+    padding: 10px;
+    width: 190px;
+
+}
+
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #738dc999;
+}
+
+
+
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+    background-color: #ddd;
+}

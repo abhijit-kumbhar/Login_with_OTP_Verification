@@ -1,0 +1,47 @@
+/* EditStudent.css */
+.edit-student-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #738dc999;
+    margin-top: 80px;
+}
+
+.edit-student-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.edit-student-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.edit-student-container table th,
+.edit-student-container table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.edit-student-container table th {
+    background-color: #19337099;
+}
+
+.edit-student-container table td input[type="text"],
+.edit-student-container table td input[type="number"],
+.edit-student-container table td input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-student-container table td button {
+    padding: 10px 20
+}
